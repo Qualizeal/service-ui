@@ -71,6 +71,7 @@ export class AnalyticsWrapper extends Component {
       dimension2: appVersion,
       dimension3: userId,
       dimension4: Date.now(),
+      dimension4: 'QA',
     });
     ReactGA.ga()('require', 'ec');
   }
