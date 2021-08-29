@@ -98,16 +98,18 @@ export class LoginPage extends PureComponent {
     return (
       <div className={cx('login-page')}>
         <div className={cx('login-page-content')}>
-          <div className={cx('background')} />
-          <a href={referenceDictionary.rpLanding} target="_blank">
-            <div className={cx('logo')} />
-          </a>
-          <LoginPageSection left>
+          {/* <div className={cx('background')} /> */}
+
+          {/* <LoginPageSection left>
             <SocialSection />
-          </LoginPageSection>
+          </LoginPageSection> */}
           <LoginPageSection>
+            <a href="https://qualizeal.com" target="_blank">
+              <div className={cx('logo')} />
+            </a>
+            {/* <img src="url(./img/qzlogo.svg)" /> */}
             {currentBlock}
-            <ServiceVersionsBlock />
+            {/* <ServiceVersionsBlock /> */}
           </LoginPageSection>
         </div>
       </div>

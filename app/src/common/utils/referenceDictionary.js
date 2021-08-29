@@ -15,14 +15,11 @@
  */
 
 export const referenceDictionary = {
-  rpLanding: 'http://reportportal.io/',
-  rpDoc: 'http://reportportal.io/docs',
-  rpGitHub: 'https://github.com/reportportal',
+  rpLanding: 'https://qualizeal.com/',
+  rpDoc: 'https://qualizeal.jetbrains.space/',
+  rpGitHub: 'https://qualizeal.jetbrains.space/',
   rpFacebook: 'https://www.facebook.com/ReportPortal.io',
-  rpTwitter: 'http://twitter.com/ReportPortal_io',
-  rpYoutube: 'http://youtube.com/c/ReportPortalCommunity',
-  rpVk: 'https://vk.com/reportportal_io',
-  rpSlack: 'https://reportportal-slack-auto.herokuapp.com/',
-  rpEmail: 'mailto:support@reportportal.io',
-  rpEpam: 'https://www.epam.com/',
+  rpTwitter: 'https://twitter.com/quali_zeal?lang=en',
+  rpEmail: 'mailto:sales@qualizeal.com',
+  rpEpam: 'https://www.qualizeal.com/',
 };

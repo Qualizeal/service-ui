@@ -45,20 +45,6 @@ export class Footer extends Component {
       <footer className={cx('footer')}>
         <div className={cx('footer-links')}>
           <a
-            href={referenceDictionary.rpGitHub}
-            target="_blank"
-            onClick={() => tracking.trackEvent(FOOTER_EVENTS.FORK_US_CLICK)}
-          >
-            <FormattedMessage id={'Footer.git'} defaultMessage={'Fork us on GitHub'} />
-          </a>
-          <a
-            href={referenceDictionary.rpSlack}
-            target="_blank"
-            onClick={() => tracking.trackEvent(FOOTER_EVENTS.SLACK_LINK)}
-          >
-            <FormattedMessage id={'Footer.slack'} defaultMessage={'Chat with us on Slack'} />
-          </a>
-          <a
             href={referenceDictionary.rpEmail}
             onClick={() => tracking.trackEvent(FOOTER_EVENTS.CONTACT_US_LINK)}
           >
@@ -69,24 +55,27 @@ export class Footer extends Component {
             target="_blank"
             onClick={() => tracking.trackEvent(FOOTER_EVENTS.EPAM_LINK)}
           >
-            EPAM
+            QUALIZEAL
           </a>
           <a
             href={referenceDictionary.rpDoc}
             target="_blank"
             onClick={() => tracking.trackEvent(FOOTER_EVENTS.DOCUMENTATION_LINK)}
           >
-            <FormattedMessage id={'Footer.documentation'} defaultMessage={'Documentation'} />
+            <FormattedMessage id={'Footer.documentation'} defaultMessage={'Spaces'} />
           </a>
         </div>
         <div className={cx('text-wrapper')}>
-          <div className={cx('footer-text')}>
+          {/* <div className={cx('footer-text')}>
             <FormattedMessage id={'Footer.build'} defaultMessage={'Build'} />
             <span>: {buildVersion}</span>
-          </div>
+          </div> */}
           <div className={cx('footer-text')}>
-            <span> &copy; Report Portal {new Date().getFullYear()} </span>
-            <FormattedMessage id={'Footer.copyright'} defaultMessage={'All rights reserved'} />
+            <span> &copy; Qualizeal {new Date().getFullYear()} </span>
+            <FormattedMessage
+              id={'Footer.copyright'}
+              defaultMessage={'We will focus obsessively on the customer'}
+            />
           </div>
         </div>
       </footer>

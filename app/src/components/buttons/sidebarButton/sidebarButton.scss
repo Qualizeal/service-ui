@@ -31,7 +31,6 @@
   text-transform: uppercase;
   line-height: 15px;
   text-overflow: ellipsis;
-
   @media (max-width: $SCREEN_XS_MAX) {
     display: inline-block;
     max-width: 145px;
@@ -47,7 +46,6 @@
   color: $COLOR--white-two;
   text-decoration: none;
   text-align: center;
-
   @media (max-width: $SCREEN_XS_MAX) {
     text-align: left;
   }
@@ -61,12 +59,10 @@
       fill: $COLOR--white-two;
     }
   }
-
   &.active {
     color: $COLOR--booger;
-    background-color: $COLOR--black-2;
+    background-color: #9695a8;
     box-shadow: none;
-
     path,
     rect,
     polygon {
@@ -82,18 +78,15 @@
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
-  background-color: $COLOR--charcoal-grey;
+  background-color: #273272;
   font-family: $FONT-CONDBOLD;
   font-size: 11px;
-
   @media (max-width: $SCREEN_XS_MAX) {
     font-size: 12px;
-
     &.mobile-hidden {
       display: none;
     }
   }
-
   &.at-bottom {
     .nav-link,
     .link {
@@ -104,7 +97,6 @@
       .btn-title {
         text-transform: none;
       }
-
       &.active {
         box-shadow: none;
       }
@@ -118,7 +110,6 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-
   @media (max-width: $SCREEN_XS_MAX) {
     white-space: nowrap;
   }

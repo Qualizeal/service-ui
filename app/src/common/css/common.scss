@@ -24,9 +24,9 @@ body {
 }
 
 body {
-  background: $COLOR--primary-gray;
+  background: white;
   font-family: $FONT-REGULAR;
   @media print {
-    background: $COLOR--white-two;
+    background: white;
   }
 }

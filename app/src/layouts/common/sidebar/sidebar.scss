@@ -18,7 +18,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: $COLOR--charcoal-grey;
+  background-color: #273272;
 }
 
 .top-block {
@@ -27,7 +27,6 @@
 
 .main-block {
   height: 56px;
-
   @media (max-width: $SCREEN_XS_MAX) {
     display: none;
   }
@@ -45,12 +44,10 @@
   bottom: 0;
   width: 100%;
   min-height: 60px;
-
   .sidebar-btn {
     display: none;
     height: 45px;
   }
-
   @media (max-width: $SCREEN_XS_MAX) {
     .sidebar-btn {
       display: block;

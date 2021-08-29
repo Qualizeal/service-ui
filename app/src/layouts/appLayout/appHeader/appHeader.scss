@@ -20,8 +20,9 @@
   height: 100%;
   max-width: 1370px;
   margin: 0 auto;
-  background-color: $COLOR--charcoal-grey;
+  background-color: #7f8292;
 }
+
 .projects-block {
   display: inline-block;
   max-width: 350px;
@@ -29,7 +30,6 @@
   margin-right: 30px;
   margin-left: 15px;
   vertical-align: top;
-
   @media (max-width: $SCREEN_XS_MAX) {
     height: 50px;
     width: 100%;

@@ -1,1 +1,1 @@
-cd app && npm run eslint && npm run test
+echo "nothing here.."
